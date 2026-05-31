@@ -4,7 +4,8 @@ import re
 from datetime import date
 import database
 from prediction import predict_health
-from ai_remarks import generate_remark
+def generate_remark(glucose, haemoglobin, cholesterol):
+    return f"Glucose: {glucose}, Haemoglobin: {haemoglobin}, Cholesterol: {cholesterol}"
 
 database.create_table()
 
