@@ -29,7 +29,7 @@ A Python-based AI web application that predicts **health remarks** based on pati
 3. AI generates a short medical remark
 4. Result is displayed instantly
 
----
+###
 
 ## ▶️ How to Run This Project
 
